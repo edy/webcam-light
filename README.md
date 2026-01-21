@@ -76,8 +76,6 @@ export DISPLAYS_CACHE_TTL_SECONDS="15"
 | `REQUIRE_EXTERNAL_MONITOR`   | `true`                                                  | Only send notifications when external monitor connected |
 | `DEBOUNCE_SECONDS`           | `5.0`                                                   | Minimum time between duplicate notifications            |
 | `DISPLAYS_CACHE_TTL_SECONDS` | `15`                                                    | How long to cache external monitor detection            |
-| `COMMAND_TIMEOUT`            | `6`                                                     | Timeout for system commands (in seconds)                |
-| `DETECT_MONITOR_TIMEOUT`     | `6`                                                     | Timeout for monitor detection (in seconds)              |
 
 ### Command Line Arguments
 
